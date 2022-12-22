@@ -1,0 +1,16 @@
+.
+├── app.py
+├── __pycache__
+│   ├── app.cpython-310.pyc
+│   └── simpler_utils.cpython-310.pyc
+├── simpler_utils.py
+├── static
+│   ├── css
+│   │   └── style.css
+│   └── script
+│       └── script.js
+├── templates
+│   └── index.html
+└── tree
+
+5 directories, 8 files
