@@ -74,7 +74,8 @@ def get_predictions(comment):
         op = output.logits
 
         preds = []
+        classes = ['Toxic', 'Severe Toxic', 'Obscene', 'Threat', 'Insult', 'Identity Hate']
         for i in range(6):
-            preds.append(round(op[0, i].tolist(), 2))
+            preds.append((classes[i], (round(op[0, i].tolist(), 2))))
 
     return preds
